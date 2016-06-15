@@ -1,0 +1,4 @@
+1.学习用MySQLdb操作数据库
+2.不能在MySQL指令模式下面将.sql文件导入到database中，需要在普通指令下执行操作：
+    mysql -h localhost -u root -p dutylist2 < F:\Python_Code\FlaskApp_DutyList\dutylist.sql
+    之后输入密码就可以创建.sql里面对应的数据库
